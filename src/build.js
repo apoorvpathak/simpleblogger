@@ -25,7 +25,7 @@ function build(){
         posts.push({
             id: index,
             title: attributes.title || 'Untitled',
-            date: attributes.date || new Date().toISOString(),
+            date: attributes.date || new Date().toISOString().split('T')[0],
             file: htmlFileName,
           });
     });
