@@ -31,4 +31,5 @@ function initializeBlog(){
     fs.writeFileSync(path.join(postsPath, 'posts.json'), JSON.stringify([], null, 2));
     console.log('Blog initialized successfully!');
 }
-initializeBlog();
+
+module.exports = initializeBlog;

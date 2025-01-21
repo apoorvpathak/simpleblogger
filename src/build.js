@@ -34,4 +34,4 @@ function build(){
     console.log('Blog built successfully!');
 }
 
-build();
+module.exports = build;
