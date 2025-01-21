@@ -1,5 +1,7 @@
 const {program} = require('commander');
+const init = require('./init');
 const build = require('./build');
+const newPost = require('./newpost');
 
 program
     .command('init')
@@ -14,5 +16,12 @@ program
     .action(()=>{
         build();
     });
+
+program
+    .command('create-post')
+    .description('Generate new Md blog post as template')
+    .action(()=>{
+        newPost()
+    })
 
 program.parse(process.argv);
