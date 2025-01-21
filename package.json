@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["blog", "static-site-builder", "markdown to html blog builder"],
+  "author": "Apoorv Pathak",
+  "license": "MIT",
   "type": "commonjs",
   "description": "",
   "dependencies": {
