@@ -15,6 +15,7 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
+    "commander": "^13.1.0",
     "front-matter": "^4.0.2",
     "fs-extra": "^11.3.0",
     "marked": "^15.0.6"
