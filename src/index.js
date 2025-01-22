@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const {program} = require('commander');
 const init = require('./init');
 const build = require('./build');

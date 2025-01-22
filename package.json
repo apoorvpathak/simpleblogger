@@ -1,19 +1,28 @@
 {
   "name": "simpleblogger",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0-beta",
+  "main": "src/index.js",
+  "bin": {
+    "simpleblogger": "src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "blog",
-    "static-site-builder",
-    "markdown to html blog builder"
+    "blog", "static", "markdown", "generator", "static site generator", "add blog to site", "markdown to blog"
   ],
   "author": "Apoorv Pathak",
   "license": "MIT",
   "type": "commonjs",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apoorvpathak/simpleblogger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apoorvpathak/simpleblogger/issues"
+  },
+  "homepage": "https://github.com/apoorvpathak/simpleblogger#readme",
+  "description": "A simple static blog generator for developers. Perfect for developers who want to quickly set up a blog without relying on heavy frameworks or databases.",
   "dependencies": {
     "cheerio": "^1.0.0",
     "commander": "^13.1.0",
