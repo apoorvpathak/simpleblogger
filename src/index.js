@@ -18,10 +18,10 @@ program
     });
 
 program
-    .command('create-post')
+    .command('create-post <title>')
     .description('Generate new Md blog post as template')
-    .action(()=>{
-        newPost()
+    .action((title)=>{
+        newPost(title)
     })
 
 program.parse(process.argv);
