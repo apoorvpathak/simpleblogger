@@ -2,6 +2,7 @@
   "name": "simpleblogger",
   "version": "0.1.0-beta",
   "main": "src/index.js",
+  "preferGlobal": true,
   "bin": {
     "simpleblogger": "src/index.js"
   },
