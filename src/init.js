@@ -22,9 +22,9 @@ function initializeBlog(){
     </head>
     <body>
         <h1>Welcome to My Blog</h1>
+        <!-- DO NOT REMOVE THE DIV BELOW WITH THE ID OF THE #POSTS OR YOUR BLOG WILL BREAK -->
         <div id="posts"></div>
     </body>
-    <script src='blog.js'></script>
     </html>
     `
     fs.writeFileSync(path.join(blogPath, 'index.html'), indexHtmlContent);
