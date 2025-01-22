@@ -1,6 +1,6 @@
 {
   "name": "simpleblogger",
-  "version": "0.1.0-beta",
+  "version": "0.1.0",
   "main": "src/index.js",
   "preferGlobal": true,
   "bin": {
@@ -10,7 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "blog", "static", "markdown", "generator", "static site generator", "add blog to site", "markdown to blog"
+    "blog",
+    "static",
+    "markdown",
+    "generator",
+    "static site generator",
+    "add blog to site",
+    "markdown to blog"
   ],
   "author": "Apoorv Pathak",
   "license": "MIT",
