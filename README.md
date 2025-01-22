@@ -17,8 +17,7 @@ SimpleBlogger is a lightweight JavaScript tool to build static blogs for your we
 ---
 
 ## Installation
-
-You can install SimpleBlogger globally using npm:
+SimpleBlogger is a command-line tool, so it should be installed globally. Run the following command to install it:
 
 ```bash
 npm install -g simpleblogger
